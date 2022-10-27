@@ -1,0 +1,530 @@
+==5459== Memcheck, a memory error detector
+==5459== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5459== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==5459== Command: ../bin/stockPortfolio.bin
+==5459== 
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 10512
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   20 Microns Limited                   
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is   10
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1005
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   20
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   10
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1999
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 10256
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Bajaj Auto Limited                   
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    10000
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   22
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1998
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 22186
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   WinPro Industries Limited            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is   11
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    116.6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   15
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2008
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 23976
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Wipro Limited                        
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   3331.2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2005
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 25469
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   3i Infotech Limited                  
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    266.8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    7
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 27832
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Tata Steel Limited                   
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    764.8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   19
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2015
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 27902
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Tata Consultancy Services Limited    
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    25000
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   17
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   11
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2000
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 27992
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Tech Mahindra Limited                
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    16000
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   26
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1999
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 28462
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Zomato Limited                       
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is   12
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is      840
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   30
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 28491
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Yes Bank Limited                     
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1000
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2021
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 31029
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Zee Entertainment Enterprises Limited
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is   12
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   4676.4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   16
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   11
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2008
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 32468
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Tata Chemicals Limited               
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is  16737.6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   30
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   10
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2011
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 33490
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Tata Elxsi Limited                   
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is  16703.4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   15
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 35467
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Reliance Industries                  
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is  12224.4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   10
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2014
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 36792
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Hdfc Bank                            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1000
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   17
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2021
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 43921
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Infosys                              
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     9600
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   29
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1999
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 44568
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Hindustan Unilever                   
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     5000
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   10
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2004
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 46792
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Kotak Mahindra Bank                  
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   1700.4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   12
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    7
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2016
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 46799
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Icici Bank                           
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     2700
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   28
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1997
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 47218
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   State Bank Of India                  
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   2526.5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1995
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 47244
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Bajaj Finserv                        
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   8035.5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2019
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 47389
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Hcl Technologies                     
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1489
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   14
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2015
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 47456
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Bharti Airtel                        
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     3680
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2018
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 48321
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Itc                                  
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1157
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2018
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 48544
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Asian Paints                         
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is  4500.98
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   25
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2000
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 49022
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Axis Bank                            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     5385
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 51026
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Maruti Suzuki India                  
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    10067
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2005
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 52349
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Avenue Supermarts                    
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     4600
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   22
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2006
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 54690
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Ultratech Cement                     
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     9800
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   13
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1997
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 54700
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Larsen & Toubro                      
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   7307.1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   27
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2006
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 54891
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Apollo Hospitals Enterprises  Limited
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is  7201.52
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   22
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    7
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2008
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 56129
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Arvind Limited                       
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    201.6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   12
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1997
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 56234
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Ashok Leyland Limited                
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is  1158.36
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   11
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1999
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 56345
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Bharat Petroleum Corporation Limited 
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    397.4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   25
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   12
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2005
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 56435
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   D-Link (India) Limited               
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is   11
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     4290
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   21
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2014
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 63210
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Dr. Reddy's Laboratories Limited     
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    11200
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2011
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 63465
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   MindTree Limited                     
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     2008
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   24
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2006
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 64697
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Vadafone idea                        
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is      864
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    7
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    7
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2019
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 64740
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Bank of Baroda                       
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is      150
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   15
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2012
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 65239
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Life Insura Corp Of India            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1196
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1999
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 65473
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Campus Activewear Limited            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     2628
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   18
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2020
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 70298
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Aurobindo Pharma                     
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    1
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is      459
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2020
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 74297
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Rainbow Childrens Med Ltd            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     2370
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   29
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1999
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 78932
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Orient Electric                      
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is   1183.5
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    8
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2021
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 89462
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Tata Motors                          
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1956
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   30
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   10
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   1997
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 89561
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Honda India                          
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    3
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     3801
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   14
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    7
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 91546
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Indian Bank                          
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is   12
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     3600
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is   11
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 94568
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Inox Wind Limited                    
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    9
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is     1881
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is     buy
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   24
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2020
+11:11:44 [94mTRACE[0m [90m../src/listMgmt.c:32:[0m Entering function constructsStockStruct
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:45:[0m Stock Id is 96290
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:51:[0m Stock Name is   Idbi Bank                            
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:59:[0m Stock Quantity is    4
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:67:[0m Stock Price is    271.2
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:74:[0m Stock was Buy or Sell is    sell
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:81:[0m Stock Day is   19
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:88:[0m Stock Month is    6
+11:11:44 [32mINFO [0m [90m../src/listMgmt.c:96:[0m Stock Year is   2022
+49 records read from the csv file
+     0x4a54d70 | 10512 |     20 Microns Limited                    |   10 |      1005 |     buy |   20 |   10 |   1999|
+     0x4a55290 | 10256 |     Bajaj Auto Limited                    |    5 |     10000 |     buy |   22 |    4 |   1998|
+     0x4a557b0 | 22186 |     WinPro Industries Limited             |   11 |       116 |    sell |   15 |    1 |   2008|
+     0x4a55cd0 | 23976 |     Wipro Limited                         |    6 |      3331 |     buy |    9 |    2 |   2005|
+     0x4a561f0 | 25469 |     3i Infotech Limited                   |    4 |       266 |    sell |    2 |    7 |   2022|
+     0x4a56710 | 27832 |     Tata Steel Limited                    |    8 |       764 |    sell |   19 |    2 |   2015|
+     0x4a56c30 | 27902 |     Tata Consultancy Services Limited     |    5 |     25000 |     buy |   17 |   11 |   2000|
+     0x4a57150 | 27992 |     Tech Mahindra Limited                 |    8 |     16000 |    sell |   26 |    5 |   1999|
+     0x4a57670 | 28462 |     Zomato Limited                        |   12 |       840 |     buy |   30 |    6 |   2022|
+     0x4a57b90 | 28491 |     Yes Bank Limited                      |    9 |      1000 |    sell |    4 |    5 |   2021|
+     0x4a580b0 | 31029 |     Zee Entertainment Enterprises Limited |   12 |      4676 |     buy |   16 |   11 |   2008|
+     0x4a585d0 | 32468 |     Tata Chemicals Limited                |    6 |     16737 |     buy |   30 |   10 |   2011|
+     0x4a58af0 | 33490 |     Tata Elxsi Limited                    |    3 |     16703 |     buy |   15 |    9 |   2022|
+     0x4a59010 | 35467 |     Reliance Industries                   |    4 |     12224 |     buy |    5 |   10 |   2014|
+     0x4a59530 | 36792 |     Hdfc Bank                             |    1 |      1000 |    sell |   17 |    3 |   2021|
+     0x4a59a50 | 43921 |     Infosys                               |    6 |      9600 |     buy |   29 |    3 |   1999|
+     0x4a59f70 | 44568 |     Hindustan Unilever                    |    2 |      5000 |    sell |   10 |    2 |   2004|
+     0x4a5a490 | 46792 |     Kotak Mahindra Bank                   |    1 |      1700 |    sell |   12 |    7 |   2016|
+     0x4a5a9b0 | 46799 |     Icici Bank                            |    3 |      2700 |     buy |   28 |    9 |   1997|
+     0x4a5aed0 | 47218 |     State Bank Of India                   |    5 |      2526 |    sell |    5 |    9 |   1995|
+     0x4a5b3f0 | 47244 |     Bajaj Finserv                         |    3 |      8035 |     buy |    3 |    1 |   2019|
+     0x4a5b910 | 47389 |     Hcl Technologies                      |    1 |      1489 |    sell |   14 |    2 |   2015|
+     0x4a5be30 | 47456 |     Bharti Airtel                         |    8 |      3680 |     buy |    2 |    6 |   2018|
+     0x4a5c350 | 48321 |     Itc                                   |    2 |      1157 |     buy |    1 |    8 |   2018|
+     0x4a5c870 | 48544 |     Asian Paints                          |    1 |      4500 |    sell |   25 |    9 |   2000|
+     0x4a5cd90 | 49022 |     Axis Bank                             |    6 |      5385 |    sell |    6 |    5 |   2022|
+     0x4a5d2b0 | 51026 |     Maruti Suzuki India                   |    1 |     10067 |     buy |    3 |    5 |   2005|
+     0x4a5d7d0 | 52349 |     Avenue Supermarts                     |    2 |      4600 |    sell |   22 |    3 |   2006|
+     0x4a5dcf0 | 54690 |     Ultratech Cement                      |    1 |      9800 |    sell |   13 |    2 |   1997|
+     0x4a5e210 | 54700 |     Larsen & Toubro                       |    3 |      7307 |    sell |   27 |    3 |   2006|
+     0x4a5e730 | 54891 |     Apollo Hospitals Enterprises  Limited |    2 |      7201 |     buy |   22 |    7 |   2008|
+     0x4a5ec50 | 56129 |     Arvind Limited                        |    2 |       201 |    sell |   12 |    1 |   1997|
+     0x4a5f170 | 56234 |     Ashok Leyland Limited                 |    4 |      1158 |     buy |    2 |   11 |   1999|
+     0x4a5f690 | 56345 |     Bharat Petroleum Corporation Limited  |    2 |       397 |    sell |   25==5459== Conditional jump or move depends on uninitialised value(s)
+==5459==    at 0x109525: main (main.c:61)
+==5459== 
+==5459== Conditional jump or move depends on uninitialised value(s)
+==5459==    at 0x10952A: main (main.c:61)
+==5459== 
+ |   12 |   2005|
+     0x4a5fbb0 | 56435 |     D-Link (India) Limited                |   11 |      4290 |     buy |   21 |    4 |   2014|
+     0x4a600d0 | 63210 |     Dr. Reddy's Laboratories Limited      |    2 |     11200 |     buy |    5 |    1 |   2011|
+     0x4a605f0 | 63465 |     MindTree Limited                      |    1 |      2008 |     buy |   24 |    4 |   2006|
+     0x4a60b10 | 64697 |     Vadafone idea                         |    8 |       864 |    sell |    7 |    7 |   2019|
+     0x4a61030 | 64740 |     Bank of Baroda                        |    1 |       150 |     buy |   15 |    9 |   2012|
+     0x4a61550 | 65239 |     Life Insura Corp Of India             |    2 |      1196 |     buy |    5 |    8 |   1999|
+     0x4a61a70 | 65473 |     Campus Activewear Limited             |    4 |      2628 |    sell |   18 |    2 |   2020|
+     0x4a61f90 | 70298 |     Aurobindo Pharma                      |    1 |       459 |    sell |    3 |    5 |   2020|
+     0x4a624b0 | 74297 |     Rainbow Childrens Med Ltd             |    3 |      2370 |     buy |   29 |    9 |   1999|
+     0x4a629d0 | 78932 |     Orient Electric                       |    5 |      1183 |     buy |    8 |    6 |   2021|
+     0x4a62ef0 | 89462 |     Tata Motors                           |    4 |      1956 |    sell |   30 |   10 |   1997|
+     0x4a63410 | 89561 |     Honda India                           |    3 |      3801 |    sell |   14 |    7 |   2022|
+     0x4a63930 | 91546 |     Indian Bank                           |   12 |      3600 |     buy |    9 |   11 |   2022|
+     0x4a63e50 | 94568 |     Inox Wind Limited                     |    9 |      1881 |     buy |   24 |    2 |   2020|
+         (nil) | 96290 |     Idbi Bank                             |    4 |       271 |    sell |   19 |    6 |   2022|
+
+*************************************************************************
+-----------------------Welcome To Stock Portfolio------------------------
+*************************************************************************
+Menu:
+1.Display the Stock Portfolio
+2.Insert Stock in the Portfolio
+3.Remove Stock in the Portfolio
+4.View Profit or Loss
+
+Enter Your Choice : 
+Wrong Input
+ Do you want to continue(Y/N) : ==5459== 
+==5459== HEAP SUMMARY:
+==5459==     in use at exit: 25,880 bytes in 50 blocks
+==5459==   total heap usage: 503 allocs, 453 frees, 46,987 bytes allocated
+==5459== 
+==5459== LEAK SUMMARY:
+==5459==    definitely lost: 8 bytes in 1 blocks
+==5459==    indirectly lost: 25,872 bytes in 49 blocks
+==5459==      possibly lost: 0 bytes in 0 blocks
+==5459==    still reachable: 0 bytes in 0 blocks
+==5459==         suppressed: 0 bytes in 0 blocks
+==5459== Rerun with --leak-check=full to see details of leaked memory
+==5459== 
+==5459== Use --track-origins=yes to see where uninitialised values come from
+==5459== For lists of detected and suppressed errors, rerun with: -s
+==5459== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
