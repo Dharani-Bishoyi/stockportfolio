@@ -1,0 +1,10 @@
+
+Splint 3.1.2 --- 21 Feb 2021
+
+Command Line: Unrecognized file extension:
+                 stockportfolio.bin (assuming .bin is C source code)
+  warn when command line file does not have a recognized extension (Use
+  -fileextensions to inhibit warning)
+Cannot open file: stockportfolio.bin
+
+Finished checking --- no code processed
